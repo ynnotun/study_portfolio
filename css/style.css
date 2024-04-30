@@ -1,6 +1,12 @@
 * {
     margin: 0;
     padding: 0;
+    color: inherit;
+}
+
+body {
+    background-color: #90A3BF;
+    color: #ffffff;
 }
 
 
@@ -38,4 +44,51 @@ li{
     letter-spacing: -0.02em;
     color: #658DF1;
     
+}
+
+
+section {
+    margin-bottom: 80px;   
+}
+
+.section-title {
+    text-align: center;
+}
+
+
+.profile {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.profile-detail {
+    display: flex;
+    gap: 100px;
+    margin-top: 56px;
+}
+
+.profile-picture {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+}
+
+.profile-description {
+
+}
+
+.profile-item {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.profile-item-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.profile-item-description {
+    font-size: 16px;
 }
