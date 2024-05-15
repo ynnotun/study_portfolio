@@ -11,5 +11,4 @@
 - CSS
 - JavaScript
 - Jquery
-
-
+- anime.js
