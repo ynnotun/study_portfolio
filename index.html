@@ -5,11 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ynnotun의 포트폴리오</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="/node_modules/animejs/lib/anime.min.js"></script>
 </head>
 <body>
     <section class="cover">
         <h1 class="cover-title">YNNOTUN</h1>
         <p class="cover-decription">FRONDEND | BACKEND</p>
+        <img src="images/star1.svg" alt="" class="star1">
+        <img src="images/star2.svg" alt="" class="star2">
+        <img src="images/star3.svg" alt="" class="star3">
+        <img src="images/star4.svg" alt="" class="star4">
+        <img src="images/star3.svg" alt="" class="star5">
+        <img src="images/star2.svg" alt="" class="star6">
+        <img src="images/star7.svg" alt="" class="star7">
+        <img src="images/star8.svg" alt="" class="star8">
+        <div class="circle circle-big circle1 color-red"></div>
+        <div class="circle circle-big circle2 color-green"></div>
+        <div class="circle circle-small circle3 color-red"></div>
+        <div class="circle circle-small circle4 color-green"></div>
     </section>
 
     <section class="profile section">
@@ -25,5 +38,14 @@
             </div>
         </div>
     </section>
+    <script src="js/animation.js"></script>
+    <script>
+        anime({
+        targets: '.star1',
+        rotate: '1turn',
+        duration: 3000,
+        loop: true,
+        });
+    </script>
 </body>
 </html>
